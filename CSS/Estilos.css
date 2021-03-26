@@ -1,0 +1,302 @@
+.header {
+  height: 103px;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
+  width: 100%;
+}
+.logo-menu {
+  padding: 0 20px 0 20px;
+  width: 1145px;
+  display: flex;
+  margin: 0 auto 0 auto;
+  height: 103px;
+  align-items: center;
+}
+.logo-mobile {
+  height: 50px;
+  display: none;
+}
+.menu {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 308px;
+  height: 35px;
+  left: 358px;
+  top: 36px;
+  justify-content: space-evenly;
+}
+.links {
+  text-decoration: none;
+}
+.texto-header {
+  font-style: bold;
+  font-weight: 700;
+  line-height: 26px;
+  font-size: 19px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -0.8px;
+}
+.h1 {
+  font-size: 52px;
+  line-height: 58px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  margin-bottom: 5px;
+}
+.h2-solo {
+  font-size: 21.5px;
+  line-height: 25px;
+  font-weight: bold;
+  letter-spacing: -0.45px;
+  margin-bottom: 5px;
+}
+.h2 {
+  font-size: 21.5px;
+  line-height: 25px;
+  font-weight: bold;
+  letter-spacing: -0.45px;
+  margin-bottom: 5px;
+}
+.h3 {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  letter-spacing: -0.6px;
+  margin-bottom: 5px;
+}
+.texto {
+  font-size: 15.5px;
+  line-height: 19px;
+  font-weight: normal;
+  letter-spacing: -0.48px;
+  margin-bottom: 5px;
+}
+.links:hover {
+  filter: brightness(130%);
+}
+.vermelho-escuro {
+  color: #a80001;
+}
+.verde {
+  color: #06aa48;
+}
+.laranja {
+  color: #ff7f00;
+}
+.cinza {
+  color: #666666;
+}
+.azul {
+  color: #0769df;
+}
+.logo {
+  height: 60px;
+  display: block;
+}
+.corpo {
+  display: flex;
+
+  width: 1145px;
+  height: auto;
+  justify-content: center;
+
+  margin: 0 auto 20px auto;
+  font-family: "Open Sans", sans-serif;
+  padding: 0 20px 0 20px;
+}
+
+.noticias {
+  width: 572.5px;
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0 0 20px 0;
+}
+.quadros {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+  padding: 0 0 20px 0;
+}
+.add-borda {
+  border-bottom: 1px solid #e6e6e6;
+}
+.imagem-noticias {
+  width: 171px;
+  height: 96px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+.imagem-titulo {
+  display: flex;
+  flex-direction: column;
+}
+.quadros-noticias {
+  display: flex;
+  flex-direction: column;
+
+  width: 171px;
+}
+.esporte-fofoca {
+  display: flex;
+
+  width: 572.5px;
+  min-width: 250px;
+}
+.esporte {
+  width: 235px;
+
+  margin-left: 25px;
+  padding-left: 25px;
+  border-left: 1px solid #e6e6e6;
+}
+.fofoca {
+  width: 235px;
+
+  margin-left: 25px;
+  padding-left: 25px;
+  border-left: 1px solid #e6e6e6;
+}
+.quadros-e-f {
+  display: flex;
+  flex-direction: column;
+  width: 235px;
+  margin-bottom: 30px;
+}
+.imagems-e-f {
+  width: 235px;
+  height: 118px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  .logo-mobile {
+    margin: 0 0 0 0;
+
+    display: block;
+  }
+  .logo-menu {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 0;
+    padding: 10px 0 0 0;
+  }
+  .menu {
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 10px 20px 10px 20px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .corpo {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .header {
+    border-bottom: none;
+  }
+
+  .imagem-noticias {
+    width: 120px;
+    height: 67px;
+  }
+  .imagems-e-f {
+    width: 120px;
+    height: 67px;
+  }
+  .imagem-titulo {
+    flex-direction: row;
+    align-items: center;
+  }
+  .h2 {
+    margin-left: 10px;
+  }
+  .texto {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .esporte-fofoca {
+    flex-direction: column;
+  }
+  .esporte {
+    border-left: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .quadros {
+    flex-direction: column;
+  }
+
+  .corpo {
+    padding: 0 10px 50px 10px;
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+  .noticias {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .headline {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 20px 0;
+  }
+  .quadros {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .quadros-noticias {
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 30px 0 0 0;
+    padding: 0 0 20px 0;
+  }
+  .esporte-fofoca {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .quadros-e-f {
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 30px 0 0 0;
+    padding: 0 0 20px 0;
+  }
+  .esporte {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .fofoca {
+    border-left: none;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .h1 {
+    font-size: 32px;
+  }
+  .h2 {
+    font-size: 18px;
+  }
+  .h3 {
+    font-size: 18px;
+  }
+  .bug {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+}
